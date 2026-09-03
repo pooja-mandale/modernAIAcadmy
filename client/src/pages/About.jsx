@@ -29,12 +29,12 @@ const About = () => {
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight text-white leading-tight">
             Pioneering Academic Excellence with <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-cyan-400 to-sky-300">
-              Modern AI Academy
+              Modern Global Eduvere
             </span>
           </h2>
           
           <p className="text-slate-400 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed font-medium">
-            Modern AI Academy is an all-in-one learning platform engineered for 11th and 12th grade students across Science, Commerce, Arts, and Competitive Streams. We combine artificial intelligence analytics with expert faculty to accelerate student mastery.
+            Modern Global Eduvere is an all-in-one learning platform engineered for 11th and 12th grade students across Science, Commerce, Arts, and Competitive Streams. We combine artificial intelligence analytics with expert faculty to accelerate student mastery.
           </p>
         </div>
 

@@ -73,10 +73,10 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-12 lg:col-span-5">
             <div className="flex items-center gap-3.5 mb-5">
               <div className="w-12 h-12 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 shadow-xs overflow-hidden flex items-center justify-center p-0.5">
-                <img src="/logo.png" alt="Modern AI Academy Logo" className="w-full h-full object-cover rounded-xl" />
+                <img src="/logo.png" alt="Modern Global Eduvere Logo" className="w-full h-full object-contain rounded-xl" />
               </div>
               <div>
-                <span className="text-xl font-black text-slate-900 dark:text-white tracking-tight leading-none block">MODERN GUIDANCE ACADEMY</span>
+                <span className="text-xl font-black text-slate-900 dark:text-white tracking-tight leading-none block">MODERN GLOBAL EDUVERE</span>
                 <span className="text-[10px] font-extrabold text-amber-600 dark:text-amber-400 uppercase tracking-widest mt-1 block">All Academic &amp; Competitive Streams</span>
               </div>
             </div>
@@ -111,7 +111,7 @@ const Footer = () => {
                 { name: 'Student Dashboard', path: '/' },
                 { name: 'School & High School Exams', path: '/exams' },
                 { name: 'Competitive Entrance Tests', path: '/exams' },
-                { name: 'About Modern AI Academy', path: '/about' },
+                { name: 'About Modern Global Eduvere', path: '/about' },
                 { name: 'Contact Support', path: '/contact' },
                 { name: 'Admin Portal', path: '/admin-login' }
               ].map((link, i) => (
@@ -153,7 +153,7 @@ const Footer = () => {
         {/* Copyright & Bottom Bar */}
         <div className="pt-8 border-t border-slate-200/80 dark:border-slate-800 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-slate-500 dark:text-slate-400 font-medium">
           <div className="text-center sm:text-left">
-            <p>© {new Date().getFullYear()} Modern AI Academy. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} Modern Global Eduvere. All rights reserved.</p>
             <p className="text-slate-400 dark:text-slate-500 mt-0.5">AI-Powered Education Excellence for All Academic &amp; Competitive Scholars</p>
           </div>
           <div className="flex items-center gap-2 bg-white/80 dark:bg-slate-900/80 px-4 py-2 rounded-full border border-slate-200/80 dark:border-slate-800 shadow-xs">

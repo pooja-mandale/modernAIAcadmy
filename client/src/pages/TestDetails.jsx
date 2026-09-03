@@ -209,7 +209,7 @@ const TestDetails = () => {
 
             {/* Sub-illustration/Note */}
             <div className="hidden lg:block bg-indigo-50/20 border border-indigo-100/50 rounded-2xl p-4 text-center">
-              <span className="text-[9px] text-slate-400 font-extrabold uppercase tracking-widest">MODERN AI ACADEMY PORTAL</span>
+              <span className="text-[9px] text-slate-400 font-extrabold uppercase tracking-widest">MODERN GLOBAL EDUVERE PORTAL</span>
               <p className="text-slate-700 font-black text-xs mt-0.5">Application & Enquiry intake dashboard</p>
             </div>
           </div>

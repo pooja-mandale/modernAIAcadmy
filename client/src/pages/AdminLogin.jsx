@@ -49,7 +49,7 @@ const AdminLogin = () => {
             {/* Logo Header */}
             <div className="text-center mb-8">
               <div className="w-16 h-16 rounded-2xl bg-white dark:bg-slate-800 p-1 border border-slate-200 dark:border-slate-700 overflow-hidden flex items-center justify-center mx-auto mb-4 shadow-lg group hover:scale-105 transition-transform duration-300">
-                <img src="/logo.png" alt="Logo" className="w-full h-full object-cover rounded-xl" />
+                <img src="/logo.png" alt="Modern Global Eduvere Logo" className="w-full h-full object-contain rounded-xl" />
               </div>
               
               <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-indigo-50 dark:bg-indigo-500/10 border border-indigo-200 dark:border-indigo-500/30 text-indigo-600 dark:text-indigo-400 text-[10px] font-extrabold uppercase tracking-widest mb-2">
@@ -119,7 +119,7 @@ const AdminLogin = () => {
         </div>
 
         <p className="text-center text-slate-400 dark:text-slate-500 text-[11px] font-semibold mt-6 uppercase tracking-widest">
-          Modern AI Academy • Administration Portal
+          Modern Global Eduvere • Administration Portal
         </p>
       </div>
     </div>

@@ -27,7 +27,7 @@ const Login = () => {
   useEffect(() => {
     if (isError) toast.error(message);
     if (isSuccess || user) {
-      toast.success("Welcome back to Modern AI Academy!");
+      toast.success("Welcome back to Modern Global Eduvere!");
       navigate(redirectPath);
     }
     dispatch(reset());
@@ -61,11 +61,11 @@ const Login = () => {
         <div className="relative z-10">
           <Link to="/" className="inline-flex items-center gap-3.5 group">
             <div className="w-12 h-12 p-0.5 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 overflow-hidden shadow-md group-hover:scale-105 transition-transform duration-300">
-              <img src="/logo.png" alt="Modern AI Academy Logo" className="w-full h-full object-cover rounded-xl" />
+              <img src="/logo.png" alt="Modern Global Eduvere Logo" className="w-full h-full object-contain rounded-xl" />
             </div>
             <div>
               <div className="text-2xl font-black text-slate-900 dark:text-white tracking-tight leading-none">
-                MODERN <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 via-cyan-500 to-sky-400 dark:from-indigo-400 dark:via-cyan-400 dark:to-sky-300">AI ACADEMY</span>
+                MODERN <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 via-cyan-500 to-sky-400 dark:from-indigo-400 dark:via-cyan-400 dark:to-sky-300">GLOBAL EDUVERE</span>
               </div>
               <div className="text-[10px] text-indigo-600 dark:text-cyan-400 font-extrabold uppercase tracking-[0.2em] mt-1 flex items-center gap-1.5">
                 <span className="w-1.5 h-1.5 rounded-full bg-indigo-600 dark:bg-cyan-400 animate-pulse"></span>
@@ -144,7 +144,7 @@ const Login = () => {
               <p className="text-slate-700 dark:text-slate-300 text-xs font-semibold leading-relaxed">
                 Consistency in learning today builds your leadership and career success tomorrow.
               </p>
-              <p className="text-slate-500 dark:text-slate-400 text-[10px] font-extrabold mt-1.5 uppercase tracking-widest">— Modern AI Academy Faculty</p>
+              <p className="text-slate-500 dark:text-slate-400 text-[10px] font-extrabold mt-1.5 uppercase tracking-widest">— Modern Global Eduvere Faculty</p>
             </div>
           </div>
         </div>
@@ -164,9 +164,9 @@ const Login = () => {
           <div className="lg:hidden mb-8 text-center">
             <Link to="/" className="inline-flex items-center gap-3 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-lg rounded-2xl px-5 py-3.5">
               <div className="w-9 h-9 rounded-xl overflow-hidden border border-slate-200 dark:border-slate-700 flex items-center justify-center">
-                <img src="/logo.png" alt="Logo" className="w-full h-full object-cover" />
+                <img src="/logo.png" alt="Modern Global Eduvere Logo" className="w-full h-full object-contain" />
               </div>
-              <span className="text-lg font-black text-slate-900 dark:text-white">MODERN <span className="text-indigo-600 dark:text-indigo-400">AI ACADEMY</span></span>
+              <span className="text-lg font-black text-slate-900 dark:text-white">MODERN <span className="text-indigo-600 dark:text-indigo-400">GLOBAL EDUVERE</span></span>
             </Link>
           </div>
 

@@ -107,7 +107,7 @@ const PDFViewer = () => {
           
           <div className="flex items-center gap-3 shrink-0">
             <div className="w-9 h-9 rounded-xl overflow-hidden border border-slate-800 shadow-sm flex items-center justify-center bg-white p-0.5">
-              <img src="/logo.png" alt="Logo" className="w-full h-full object-cover" />
+              <img src="/logo.png" alt="Modern Global Eduvere Logo" className="w-full h-full object-contain" />
             </div>
           </div>
 
@@ -147,7 +147,7 @@ const PDFViewer = () => {
           {Array.from({ length: 16 }).map((_, idx) => (
             <div key={idx} className="flex flex-col items-center justify-center transform -rotate-30 select-none m-auto pointer-events-none">
               <img src="/logo.png" alt="Watermark Logo" className="w-24 h-24 md:w-28 md:h-28 object-contain opacity-80" />
-              <span className="text-xs md:text-sm font-black tracking-widest text-white uppercase mt-2 whitespace-nowrap">Modern AI Academy Exam Portal</span>
+              <span className="text-xs md:text-sm font-black tracking-widest text-white uppercase mt-2 whitespace-nowrap">Modern Global Eduvere Exam Portal</span>
             </div>
           ))}
         </div>

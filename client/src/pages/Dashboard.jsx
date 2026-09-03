@@ -96,7 +96,7 @@ const ModernAIDashboard = () => {
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black mb-6 leading-[1.1] tracking-tight text-slate-900 dark:text-white">
                 Master Any Field with <br />
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 via-cyan-500 to-sky-400 dark:from-indigo-400 dark:via-cyan-400 dark:to-sky-300">
-                  Modern AI Academy
+                  Modern Global Eduvere
                 </span>
               </h1>
 
@@ -288,7 +288,7 @@ const ModernAIDashboard = () => {
           <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="max-w-xl text-left">
               <span className="text-xs font-black uppercase tracking-widest text-cyan-600 dark:text-cyan-400 bg-cyan-500/10 px-3.5 py-1.5 rounded-full border border-cyan-500/30 inline-block mb-4">
-                Explore Modern AI Academy
+                Explore Modern Global Eduvere
               </span>
               <h3 className="text-3xl font-black text-slate-900 dark:text-white tracking-tight mb-3">
                 Empowering Students Across All Academic &amp; Competitive Streams

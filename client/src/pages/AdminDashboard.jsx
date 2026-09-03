@@ -423,7 +423,7 @@ const AdminDashboard = () => {
       <div className="lg:hidden flex items-center justify-between p-4 bg-white/90 dark:bg-slate-900/90 backdrop-blur-xl border-b border-slate-200 dark:border-slate-800 sticky top-0 z-30 shadow-sm w-full">
         <div className="flex items-center gap-2">
           <div className="w-8 h-8 rounded-lg overflow-hidden border border-slate-200 dark:border-slate-700 shadow-sm flex items-center justify-center">
-            <img src="/logo.png" alt="Logo" className="w-full h-full object-cover" />
+            <img src="/logo.png" alt="Modern Global Eduvere Logo" className="w-full h-full object-contain" />
           </div>
           <span className="font-bold text-slate-900 dark:text-white text-base">AdminSuite</span>
         </div>
@@ -448,10 +448,10 @@ const AdminDashboard = () => {
         <div className="flex items-center justify-between mb-8 mt-2">
           <div className="flex items-center gap-3 px-2">
             <div className="w-10 h-10 rounded-xl bg-slate-800 p-0.5 border border-indigo-400/20 shadow-lg overflow-hidden flex items-center justify-center shrink-0">
-              <img src="/logo.png" alt="Logo" className="w-full h-full object-cover rounded-lg" />
+              <img src="/logo.png" alt="Modern Global Eduvere Logo" className="w-full h-full object-contain rounded-lg" />
             </div>
             <div className="flex flex-col">
-              <span className="text-base font-black tracking-tight text-white leading-none">Modern AI Academy</span>
+              <span className="text-base font-black tracking-tight text-white leading-none">Modern Global Eduvere</span>
               <span className="text-[10px] text-indigo-400 font-bold tracking-widest uppercase mt-1">Admin Suite</span>
             </div>
           </div>

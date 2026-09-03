@@ -28,11 +28,11 @@ const Navbar = () => {
           <div className="flex items-center space-x-4">
             <Link to="/" className="flex items-center gap-3 group">
               <div className="p-1 bg-white dark:bg-slate-800 border border-slate-200/80 dark:border-slate-700 rounded-2xl shadow-xs group-hover:scale-105 transition-transform overflow-hidden flex items-center justify-center">
-                <img src="/logo.png" alt="Modern AI Academy Logo" className="w-10 h-10 object-cover rounded-xl" />
+                <img src="/logo.png" alt="Modern Global Eduvere Logo" className="w-10 h-10 object-contain rounded-xl" />
               </div>
               <div className="flex flex-col">
                 <span className="text-lg sm:text-xl font-extrabold tracking-tight leading-none text-slate-900 dark:text-white transition-colors">
-                  MODERN <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-500 via-indigo-600 to-cyan-500">GUIDANCE ACADEMY</span>
+                  MODERN <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-500 via-indigo-600 to-cyan-500">GLOBAL EDUVERE</span>
                 </span>
                 <span className="text-[10px] font-bold uppercase tracking-widest text-amber-600 dark:text-amber-400 mt-1 flex items-center gap-1.5">
                   <span className="w-1.5 h-1.5 rounded-full bg-amber-500 dark:bg-amber-400 animate-pulse"></span>

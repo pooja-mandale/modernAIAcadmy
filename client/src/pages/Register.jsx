@@ -119,7 +119,7 @@ const Register = () => {
               Awaiting Admin Approval
             </h2>
             <p className="text-slate-600 dark:text-slate-400 text-sm font-semibold leading-relaxed pt-1">
-              Thank you, <strong className="text-indigo-600 dark:text-indigo-400">{formData.name}</strong>! Your student account registration has been submitted to the <strong className="text-slate-800 dark:text-slate-200">Modern AI Academy Administrator</strong>.
+              Thank you, <strong className="text-indigo-600 dark:text-indigo-400">{formData.name}</strong>! Your student account registration has been submitted to the <strong className="text-slate-800 dark:text-slate-200">Modern Global Eduvere Administrator</strong>.
             </p>
           </div>
 
@@ -174,10 +174,10 @@ const Register = () => {
             {/* Logo Header */}
             <Link to="/" className="inline-flex items-center gap-3.5 group">
               <div className="w-12 h-12 rounded-2xl bg-white dark:bg-slate-800 p-0.5 border border-slate-200 dark:border-slate-700/40 overflow-hidden shadow-md group-hover:scale-105 transition-transform">
-                <img src="/logo.png" alt="Logo" className="w-full h-full object-cover rounded-xl" />
+                <img src="/logo.png" alt="Modern Global Eduvere Logo" className="w-full h-full object-contain rounded-xl" />
               </div>
               <div>
-                <div className="text-xl font-black text-slate-900 dark:text-white tracking-tight">MODERN <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-cyan-500 dark:from-indigo-400 dark:to-cyan-400">AI ACADEMY</span></div>
+                <div className="text-xl font-black text-slate-900 dark:text-white tracking-tight">MODERN <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-cyan-500 dark:from-indigo-400 dark:to-cyan-400">GLOBAL EDUVERE</span></div>
                 <p className="text-[10px] text-indigo-600 dark:text-cyan-400 font-extrabold uppercase tracking-widest mt-0.5">All Academic &amp; Competitive Streams</p>
               </div>
             </Link>
@@ -341,7 +341,7 @@ const Register = () => {
             </div>
 
             <p className="text-center text-[11px] text-slate-500 font-medium">
-              By registering, you agree to Modern AI Academy's <a href="#" className="text-indigo-600 dark:text-indigo-400 font-bold hover:underline">Terms of Service</a> &amp; <a href="#" className="text-indigo-600 dark:text-indigo-400 font-bold hover:underline">Privacy Policy</a>.
+              By registering, you agree to Modern Global Eduvere's <a href="#" className="text-indigo-600 dark:text-indigo-400 font-bold hover:underline">Terms of Service</a> &amp; <a href="#" className="text-indigo-600 dark:text-indigo-400 font-bold hover:underline">Privacy Policy</a>.
             </p>
           </div>
 
